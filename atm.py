@@ -10,7 +10,7 @@ Pin_entry = int(input("Enter the PIN: "))  #Takes the input from user for pin
 if Pin_entry == Pin:
     print("Correct:\n")
     
-    Withdraw = int(input("Enter the amount to withdraw:")) #takes the input from user for money to witghdraw
+    Withdraw = int(input("Enter the amount to withdraw: ")) #takes the input from user for money to witghdraw
     
     if Withdraw <= Starting_balance:
         twenty = int(Withdraw/20)
